@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_sections">
+        <div class="container">
+          <div class="header_section">
+            <div class="header_section_logo">
+              <a href="../second_step/index.html">
+                <img src="../img/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="header_section_links">
+              <div class="header_section_link">
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contacts</a>
+              </div>
+              <div class="header_section_btn">
+                <button>
+                  <a href="../login_step/items.html">Log in</a>
+                </button>
+                <button>Open an account</button>
+
+                <div class="dropdown">
+                  <button>EN</button>
+
+                  <div class="dr_menu">
+                    <button>Uz</button>
+                    <button>Ru</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container_first">
+      <div class="register_section">
+        <div class="login_section_title">
+          <a href="../second_step/index.html">
+            <img src="../img/logo.png" alt="logo" />
+          </a>
+          <h1>Welcome to ByTrend!</h1>
+          <p>Welcome to ByTrend!</p>
+          <a href="../login_step/items.html">Log in</a>
+        </div>
+        <form>
+          <div class="mail input_box">
+            <label for="#mail">Email <span>*</span></label>
+            <input
+              type="email"
+              id="mail"
+              placeholder="Email address"
+              required
+            />
+          </div>
+          <div class="phone input_box">
+            <label for="#phone">Phone <span>*</span></label>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="+7 965-748-89-90"
+              required
+            />
+          </div>
+          <div class="country input_box">
+            <div class="country_select input_box">
+              <div>
+                <label class="blok" for="#continent"
+                  >Country <span>*</span></label
+                >
+                <div class="ress">
+                  <select name="continent" id="continent">
+                    <option value="Russia">Russia</option>
+                    <option value="English">English</option>
+                    <option value="Uzbek">Uzbek</option>
+                  </select>
+                  <img src="../img/Chevron Down 1 - 24px.png" alt="" />
+                </div>
+              </div>
+              <div>
+                <label class="blok" for="#city">City <span>*</span></label>
+                <input
+                  type="text"
+                  id="city"
+                  placeholder="Name of the city"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="password input_box">
+            <label for="#password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="************"
+              required
+            />
+            <div>
+              <img src="../img/Interface 171 - 24px.png" alt="" />
+            </div>
+          </div>
+          <div class="confirm input_box">
+            <label for="#confirm">Confirm Password</label>
+            <input type="text" id="confirm" required />
+          </div>
+          <button type="submit">
+            <a href="../login_step/items.html">Registor</a>
+          </button>
+        </form>
+        <footer>
+          <p>
+            By signing up, you are agreeing to
+            <a href="#">
+              <span>our Terms & Conditions and Privacy Policy.</span>
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

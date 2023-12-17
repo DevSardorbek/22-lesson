@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_sections">
+        <div class="container">
+          <div class="header_section">
+            <div class="header_section_logo">
+              <a href="../second_step/index.html">
+                <img src="../img/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="header_section_links">
+              <div class="header_section_link">
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contacts</a>
+              </div>
+              <div class="header_section_btn">
+                <button type="submit">
+                  <a href="../login_step/items.html">Log in</a>
+                </button>
+                <button>Open an account</button>
+
+                <div class="dropdown">
+                  <button>EN</button>
+
+                  <div class="dr_menu">
+                    <button>Uz</button>
+                    <button>Ru</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_first">
+        <div class="login_sections">
+          <div class="login_section_title">
+            <img src="../img/logo.png" alt="logo" />
+            <h1>Welcome to ByTrend!</h1>
+            <p>Welcome to ByTrend!</p>
+            <a href="../login_step/items.html">Log in</a>
+          </div>
+          <form action="../first_step/main.html">
+            <div class="first_name input_box">
+              <label for="#first_name">First name <span>*</span></label>
+              <input
+                type="text"
+                id="first_name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="last_name input_box">
+              <label for="#last_name">Last name <span>*</span></label>
+              <input
+                type="text"
+                id="last_name"
+                placeholder="Your surname"
+                required
+              />
+            </div>
+            <div class="birth_date input_box">
+              <label for="#birth_date">Birth_date <span>*</span></label>
+              <div class="relative_input_box">
+                <input
+                  type="date"
+                  id="birth_date"
+                  placeholder="06.12.1992"
+                  required
+                />
+              </div>
+            </div>
+            <div class="gender input_box">
+              <label for="">Gender <span>*</span> </label>
+              <div class="gender_select">
+                <div>
+                  <input required type="radio" id="male" name="gender" />
+                  <label for="male"> Male </label>
+                </div>
+
+                <div>
+                  <input required type="radio" id="female" name="gender" />
+                  <label for="female"> Female </label>
+                </div>
+              </div>
+            </div>
+            <div class="skype input_box">
+              <label for="#skype">Skype</label>
+              <input
+                required
+                type="text"
+                id="skype"
+                placeholder="Your login Skype"
+              />
+            </div>
+            <div class="promo input_box">
+              <label for="#promo">Promo</label>
+              <input required type="text" id="promo" placeholder="Your promo" />
+            </div>
+            <button class="">Continue</button>
+            <!-- <a href="../first_step/main.html" class="input_box link"> -->
+            <!-- </a> -->
+          </form>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+    </footer>
+  </body>
+</html>
